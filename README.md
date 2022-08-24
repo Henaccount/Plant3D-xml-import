@@ -11,7 +11,7 @@ It then collects all "Pipe" and "PipingComponent" elements within the segment an
 It collects all nodes from the elements and connects the first node (which seems to be always the center) with the other nodes as AutoCAD lines.
 All lines created for a segment will then be converted by "linetopipe", using the "spec" and "size" option to provide the information from the "GenericAttributes".
 
-From a quick check the following limitations apply:
+From a quick check the following limitations apply (for sure not a complete list):
 - no valves (and potential other not mentioned items that might be in this xml) can be created, because "lintopipe" cannot do it anyway
 - reducers and tees and other pipe connections happen randomly, but it will be hard to be control them
 - line group not set by this script, but should be doable to set it
