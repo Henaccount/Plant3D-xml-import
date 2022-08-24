@@ -13,8 +13,8 @@ All lines created for a segment will then be converted by "linetopipe", using th
 
 From a quick check the following limitations apply (for sure not a complete list):
 - no valves (and potential other not mentioned items that might be in this xml) can be created, because "lintopipe" cannot do it anyway
-- reducers and tees and other pipe connections happen randomly, but it will be hard to be control them
-- line group not set by this script, but should be doable to set it
+- reducers and tees and other pipe connections happen randomly, but it will be hard to control this
+- line group not set by this script, but should be doable
 - insulation not there, but that might be doable by assigning to the line group
 
 
