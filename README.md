@@ -1,5 +1,5 @@
 # Plant3D-xml-import
-test for importing xmplant format into Plant 3D, for testing purpose only, use at own risk..
+test for importing xmplant format into Plant 3D (command: "XMLIMPORT3DPIPING"), for testing purpose only, use at own risk..
 
 This test was made for a mixed-metric xmplant input xml file (pipe nominal diameters in inch, coordinates in mm). It (kind of) worked on a mixed metric Plant 3D project.
 
