@@ -18,6 +18,6 @@ From a quick check the following limitations apply (for sure not a complete list
 - insulation not there, but that might be doable by assigning to the line group
 
 Generally speaking the better approach to this import might be to ask for PCF format instead of the xml and then using the "PCF to pipe" function in Plant 3D, which allows to import several PCFs at a time.
-<br>
+<br><br>
 <img src="Plant3DxmplantImport.gif">
 
